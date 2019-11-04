@@ -1,0 +1,13 @@
+logging:
+  config: config/log4j2.xml
+
+setting:
+  threadpool:
+    num: 10
+  netty:
+    client:
+      host: localhost
+      serverPort: 8899
+      isRestart: true
+      restartDelay: 10
+
